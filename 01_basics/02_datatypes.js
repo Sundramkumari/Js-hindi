@@ -24,3 +24,7 @@ symbol=>unique
 console.log(typeof"")
 console.log(typeof undefined)//undefined
 console.log(typeof null)//object
+
+const id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(id==anotherId)
